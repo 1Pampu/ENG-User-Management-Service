@@ -36,7 +36,7 @@ Access phpMyAdmin [here](https://phpmyadmin.alwaysdata.com/).
 3. **Run the application**: Once you are inside the project folder, run the following command to start the application:
 `dotnet run`
 
-This will build and run the application. Once the application is running, you can access it in the URL https://localhost:5180.
+This will build and run the application. Once the application is running, you can access it in the URL http://localhost:5180.
 # API Routes
 
 ## Routes
