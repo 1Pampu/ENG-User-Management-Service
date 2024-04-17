@@ -1,0 +1,84 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Testing ENG User Management",
+    "dateExported": "2024-04-17T22:21:57.390Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2a7a7c45-abe3-48ea-ba90-0fd622d1217b",
+            "colId": "d0b07427-b884-45e4-bc80-3580fb00f158",
+            "containerId": "",
+            "name": "Get User Info",
+            "url": "api/users/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-17T21:56:10.016Z",
+            "modified": "2024-04-17T22:03:00.253Z",
+            "headers": []
+        },
+        {
+            "_id": "7142a9b8-62aa-47b0-bebf-22b6ec7c1688",
+            "colId": "d0b07427-b884-45e4-bc80-3580fb00f158",
+            "containerId": "",
+            "name": "Get Active Users",
+            "url": "api/users",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-17T22:03:10.722Z",
+            "modified": "2024-04-17T22:03:20.678Z",
+            "headers": []
+        },
+        {
+            "_id": "8e1d6363-ad06-43bb-941a-7afb0758e909",
+            "colId": "d0b07427-b884-45e4-bc80-3580fb00f158",
+            "containerId": "",
+            "name": "Create User",
+            "url": "api/users",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-04-17T22:04:13.723Z",
+            "modified": "2024-04-17T22:21:05.823Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n\"name\": \"Luisa Martínez\",\r\n\"birthDate\": \"1986-11-02\",\r\n\"active\": true\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "6175d0ba-4135-43e5-a05a-97ca58700ba0",
+            "colId": "d0b07427-b884-45e4-bc80-3580fb00f158",
+            "containerId": "",
+            "name": "Modify User Active Status",
+            "url": "api/users/1",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-04-17T22:06:49.123Z",
+            "modified": "2024-04-17T22:21:30.474Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"active\": false\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "fe034ffc-e468-442b-8e6e-227ce09c9105",
+            "colId": "d0b07427-b884-45e4-bc80-3580fb00f158",
+            "containerId": "",
+            "name": "Delete User",
+            "url": "api/users/16",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-04-17T22:09:46.492Z",
+            "modified": "2024-04-17T22:21:40.084Z",
+            "headers": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:5180/"
+        }
+    }
+}
