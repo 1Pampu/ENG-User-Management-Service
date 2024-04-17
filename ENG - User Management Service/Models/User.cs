@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
         public required string Name { get; set; }
-        public DateOnly BirthDate { get; set; }
-        public bool Active { get; set; }
+        public DateTime BirthDate { get; set; }
+        public bool Active { get; set; } = true;
     }
 }

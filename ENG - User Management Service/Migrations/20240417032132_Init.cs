@@ -7,7 +7,7 @@ using MySql.EntityFrameworkCore.Metadata;
 namespace ENG___User_Management_Service.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class Init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
