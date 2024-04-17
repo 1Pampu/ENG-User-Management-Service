@@ -2,6 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using ENG___User_Management_Service.Context;
 using ENG___User_Management_Service.Models;
+using Newtonsoft.Json.Linq;
+using ENG___User_Management_Service.DTOs;
 
 namespace ENG___User_Management_Service.Controllers
 {
@@ -39,7 +41,7 @@ namespace ENG___User_Management_Service.Controllers
 
         // PUT: api/Users/{id} --UPDATE ACTIVE STATUS--
         [HttpPut("{id}")]
-        public async Task<IActionResult> ChangeUserStatus(int id, [FromBody] bool active)
+        public async Task<IActionResult> ChangeUserStatus(int id, [FromBody] UserStatusDTO userDTO )
         {
             var user = await _context.Users.FindAsync(id);
 
@@ -48,7 +50,7 @@ namespace ENG___User_Management_Service.Controllers
                    return NotFound();
             }
 
-            user.Active = active;
+            user.Active = userDTO.Active;
             await _context.SaveChangesAsync();
             return Ok(user);
         }
