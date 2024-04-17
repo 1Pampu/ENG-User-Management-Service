@@ -56,7 +56,7 @@ Example Response:
     {
         "id": 1,
         "name": "Martín Piampiani",
-        "birthDay": "2003-03-06T00:00:00",
+        "birthDate": "2003-03-06T00:00:00",
         "active": true
     }
 
@@ -69,7 +69,7 @@ Example Response:
         {
             "id": 1,
             "name": "Martín Piampiani",
-            "birthDay": "2003-03-06T00:00:00",
+            "birthDate": "2003-03-06T00:00:00",
             "active": true
         },
         {
@@ -85,7 +85,7 @@ Parameters Expected:
 |Parameters|Type|
 |----------|:--:|
 |**`name`**    |str |
-|**`birthDay`**|date |
+|**`birthDate`**|date |
 |**`active`**  |bool |
 
 Note that 'active' is an **OPTIONAL** parameter, it is not necessary to include it if not needed. By default, if not specified, it will start as true.
@@ -94,7 +94,7 @@ Example:
 
     {
         "name": "Martín Piampiani",
-        "birthDay": "2003-03-06",
+        "birthDate": "2003-03-06",
     }
 
  Example response:
@@ -102,7 +102,7 @@ Example:
     {
         "id": 1,
         "name": "Martín Piampiani",
-        "birthDay": "2003-03-06T00:00:00",
+        "birthDate": "2003-03-06T00:00:00",
         "active": true
     }
 
@@ -123,7 +123,7 @@ Example:
     {
         "id": 1,
         "name": "Martín Piampiani",
-        "birthDay": "2003-03-06T00:00:00",
+        "birthDate": "2003-03-06T00:00:00",
         "active": false
     }
 
