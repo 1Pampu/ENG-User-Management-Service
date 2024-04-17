@@ -11,6 +11,7 @@
         * [Create User](#create-user)
         * [Modify User Active Status](#modify-user-active-status)
         * [Delete User](#delete-user)
+* [Testing](#testing)
      
 # General Information
 
@@ -128,6 +129,15 @@ Example:
     }
 
 ### Delete User
+
+# Testing
+This project includes automated tests for the API using the Thunder Client extension of Visual Studio Code. The tests have been designed to cover all the routes and functionalities of the API.
+
+## Tools Used
+
+**Thunder Client**: The Visual Studio Code extension was used to automate API testing.
+
+**Test Collection**: A test collection has been included in the /testing folder containing all the necessary requests to test each API route.
 
 Example Response: **204 No Content**
 ## 🔗 Links
