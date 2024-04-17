@@ -1,5 +1,6 @@
 
 # Index
+* [General Information](#general-information)
 * [Installation](#installation)
     * [Requirements](#requirements)
     * [Setting Up](#setting-up)
@@ -10,6 +11,18 @@
         * [Create User](#create-user)
         * [Modify User Active Status](#modify-user-active-status)
         * [Delete User](#delete-user)
+     
+# General Information
+
+This is a repository for a technical test for ENG Company. It comprises a simple API for user management, connected to a MySQL database hosted on alwaysdata. The credentials for accessing the database are as follows:
+
+MySQL User: 355978
+
+Password: naIMrATIShor
+
+Therefore, there's no need to create a local database as it's already provisioned with test data.
+
+Access phpMyAdmin [here](https://phpmyadmin.alwaysdata.com/).
 # Installation
 ## Requirements
 .Net SDK 8 is needed to run this App, you can download it from [here](https://dotnet.microsoft.com/es-es/download).
